@@ -115,6 +115,7 @@ ro.gms.dck.eligible_wcc=1
 ro.gms.dck.se_capability=3
 
 # DisplayFeature
+persist.sys.sf.native_mode=258
 persist.vendor.dc_backlight.enable=false
 persist.vendor.disable_idle_fps.threshold=1080
 persist.vendor.disable_idle_fps=true
