@@ -269,6 +269,9 @@ PRODUCT_PACKAGES += \
     WifiOverlayOnyx \
     WifiOverlayOnyxCN
 
+PRODUCT_PACKAGES += \
+    NcmTetheringOverlay
+
 # Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
