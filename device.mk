@@ -235,6 +235,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+$(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/xm_power/charger/smart_charge/smart_night)
+$(call soong_config_set,lineage_health,charging_control_charging_enabled,0)
+$(call soong_config_set,lineage_health,charging_control_charging_disabled,1)
+
 # Memtrack
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.memtrack-service
