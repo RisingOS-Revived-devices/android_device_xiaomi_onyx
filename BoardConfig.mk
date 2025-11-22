@@ -57,6 +57,7 @@ TARGET_SCREEN_DENSITY := 520
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
 # Graphics
+HWUI_COMPILE_FOR_PERF := true
 TARGET_USES_VULKAN := true
 
 # HIDL
