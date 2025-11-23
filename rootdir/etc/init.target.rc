@@ -397,6 +397,10 @@ on post-fs-data
 
     chmod 0662 /dev/miev
     restorecon /dev/miev
+
+    # Set bbr tcp with fq
+    write /proc/sys/net/core/default_qdisc fq
+    write /proc/sys/net/ipv4/tcp_congestion_control bbr
 on early-boot
     # Wait (1 second at most) for 'fs_ready' entry to be created
     wait /sys/kernel/cnss/fs_ready 1
