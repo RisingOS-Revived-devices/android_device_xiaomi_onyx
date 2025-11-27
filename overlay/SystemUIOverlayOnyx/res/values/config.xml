@@ -12,7 +12,7 @@
     <bool name="config_vibrateOnIconAnimation">true</bool>
 
     <!-- Preferred refresh rate at keyguard, if supported by the display -->
-    <integer name="config_keyguardRefreshRate">60</integer>
+    <integer name="config_keyguardRefreshRate">120</integer>
 
     <!-- Whether to play turbulence noise after clicking the play button -->
     <bool name="config_turbulenceNoise">false</bool>
