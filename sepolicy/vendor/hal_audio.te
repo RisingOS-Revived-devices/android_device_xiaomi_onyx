@@ -20,3 +20,5 @@ allow hal_audio_default vendor_persist_sensors_file:file { open read };
 
 # Dontaudit Audio to read default_prop
 dontaudit hal_audio_default default_prop:file read;
+
+set_prop(hal_audio_default, vendor_audio_prop)
