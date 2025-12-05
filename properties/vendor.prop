@@ -115,10 +115,6 @@ ro.crypto.metadata_init_delete_all_keys.enabled=true
 vendor.wv.oemcrypto.debug.enable_external_display_check=false
 vendor.wv.oemcrypto.debug.enable_hlos_data_path=true
 
-# Device
-ro.product.marketname=POCO F7
-ro.product.mod_device=onyx_global
-
 # Displayfeature
 ro.vendor.displayfeature.dump=true
 
@@ -147,9 +143,6 @@ persist.sys.fuse.passthrough.enable=true
 # Gatekeeper
 vendor.gatekeeper.disable_spu=true
 vendor.gatekeeper.is_security_level_spu=0
-
-# GPS
-persist.backup.ntpServer=0.pool.ntp.org
 
 # Graphics
 debug.graphics.game_default_frame_rate.disabled=1
@@ -244,7 +237,6 @@ ro.config.media_vol_default=10
 ro.config.media_vol_steps=15
 ro.config.system_vol_steps=15
 ro.config.vc_call_vol_steps=11
-ro.mediaserver.64b.enable=true
 vendor.media.omx=0
 
 # Mitee

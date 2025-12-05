@@ -78,7 +78,6 @@ vendor.audio.timecheck_timeoutMs=6000
 vendor.audio.useXiaomiSpatializer=true
 
 # Bluetooth
-ro.bluetooth.finder.supported=true
 ro.camera.disableJpegR=true
 ro.camerax.extensions.enabled=false
 ro.vendor.dynamiccamera.ability_level=2
@@ -93,7 +92,6 @@ debug.config.video.hevchdr10.encode.support=false
 debug.config.video.p3.decode.support=true
 debug.config.video.p3.encode.support=true
 persist.vendor.low.cutoff=true
-ro.product.camera.livephoto.support=3
 
 # Charge
 persist.vendor.accelerate.charge=true
@@ -195,7 +193,6 @@ ro.vendor.mitee_support
 vendor.xiaomi.trustedvm.version=V002.0102.20250218
 
 # NFC
-nfc.fw.is_downloading=false
 ro.vendor.nfc.debounce_field_on=1
 ro.vendor.nfc.disable.i2c=false
 ro.vendor.nfc.dispatch_optim=2

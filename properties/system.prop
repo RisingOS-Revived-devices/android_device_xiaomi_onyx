@@ -1,5 +1,15 @@
+# Camera (miui)
+ro.product.camera.livephoto.support=3
+
 # CNE
 persist.vendor.cne.feature=1
+
+# Device
+ro.product.marketname=POCO F7
+ro.product.mod_device=onyx_global
+
+# GPS
+persist.backup.ntpServer=0.pool.ntp.org
 
 # HWUI
 debug.hwui.skia_tracing_enabled=false
@@ -9,6 +19,7 @@ debug.hwui.skia_use_perfetto_track_events=false
 media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.media.recorder-max-base-layer-fps=60
 ro.media.xml_variant.profiles=_tuna_v0
+ro.mediaserver.64b.enable=true
 
 # QTI
 ro.vendor.qti.va_aosp.support=1
