@@ -100,7 +100,6 @@ on early-boot
     exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qcom.early_boot.sh
     exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qti.can.sh
     setprop ro.sf.lcd_density ${vendor.display.lcd_density}
-    setprop vendor.display.mixer_resolution ${persist.sys.miui_resolution}
     mkdir /data/vendor/modem 0777 root root
     mkdir /data/vendor/modem/diag_logs 0777 root root
 
@@ -692,9 +691,6 @@ service cnss-daemon /system/vendor/bin/cnss-daemon -n -l --max_file_count 3 --ma
 on property:sys.shutdown.requested=*
     write /sys/kernel/shutdown_wlan/shutdown 1
     stop cnss-daemon
-
-on property:persist.sys.miui_resolution=*
-    setprop vendor.display.mixer_resolution ${persist.sys.miui_resolution}
 
 service ssgqmigd /vendor/bin/ssgqmigd
     class late_start
