@@ -30,3 +30,7 @@ on property:vendor.post_boot.parsed=1
     write /dev/cpuctl/nnapi-hal/cpu.shares 20480
     write /dev/cpuctl/rt/cpu.shares 20480
     write /dev/cpuctl/top-app/cpu.shares 20480
+
+    # IRQ Tuning
+    # IRQ 326: msm_drm -> CPU 7
+    write /proc/irq/326/smp_affinity_list 7
